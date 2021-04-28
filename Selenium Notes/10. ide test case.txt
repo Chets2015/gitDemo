@@ -1,0 +1,63 @@
+Selenium IDE- First Test Case
+In this section, you will learn how to create a basic test case in Selenium ide.
+
+The entire test script creation process in Selenium IDE can be classified into three steps:
+
+Recording (recording user interactions with the browser)
+Playing back (executing the recorded script)
+Saving the test suite
+Now, we will see the implementation of the above three steps.
+
+
+1. Recording
+Launch Firefox browser.
+Click on the Selenium icon present on the top right corner on your browser.
+
+IDE-First Test Case
+It will launch the default interface of Selenium IDE.
+
+IDE-First Test Case
+Rename the project as "Demo Test".
+Rename the test case as "javaTpoint_test".
+
+IDE-First Test Case
+Click on the "Start Recording" Button present on the top right corner on the IDE to start recording the test case.
+
+IDE-First Test Case
+Go to your Firefox browser and open URL:www.google.com
+It will redirect you to the Google search engine page.
+Type "Java Tutorials" in the Google search box.
+
+IDE-First Test Case
+Hit enter to get the search results.
+Click on the link "Java Tutorial" provided under the URLhttps://www.javatpoint.com/java-tutorial
+
+IDE-First Test Case
+It will redirect you to the javaTpoint's Java tutorial web page. Meanwhile, you will get the notifications of the actions performed by the IDE at the extreme right corner of your web browser.
+Now, go the IDE and click on the "Stop Recording" button to stop recording your actions further.
+
+IDE-First Test Case
+The Test Editor box now contains the list of all of your interactions with the browser.
+
+IDE-First Test Case
+Now, we will proceed to the next step which includes executing the recorded script.
+
+2. Playing Back
+Click on the "Run Current Test" button present on the tool bar menu of the IDE.
+It will execute all of your interactions with the browser and gives you an overall summary of the executed test script.
+
+IDE-First Test Case
+The Log pane displays the overall summary of the executed test scripts.
+
+IDE-First Test Case
+3. Saving the test suite
+Click on the save button present on the extreme right corner of the menu bar.
+
+IDE-First Test Case
+Save the entire test suite as "Demo Test".
+
+IDE-First Test Case
+The test suite can be found at the location provided in the above steps. Notice that the test script is saved in .side format.
+
+IDE-First Test Case
+Next TopicIDE-Login Test

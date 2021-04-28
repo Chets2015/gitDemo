@@ -1,0 +1,22 @@
+Selenium IDE-Installation
+Since, Selenium IDE is available only as Firefox and Chrome plug-in, we assume that you have already installed Mozilla Firefox browser in your system. However, you can download the latest version of Firefox through their official website provided under the link given below.
+
+https://www.mozilla.org/en-US/firefox/new/
+
+Selenium IDE Download and Install
+Launch Mozilla Firefox browser.
+Open URLhttps://addons.mozilla.org/en-us/firefox/addon/selenium-ide/It will redirect you to the official add-on page of Firefox.
+Click on "Add to Firefox" button.
+
+IDE-Installation
+A pop-up dialog box will be appeared asking you to add Selenium IDE as extension to your Firefox browser.
+Click on "Add" button.
+IDE-Installation
+Restart you Firefox browser.
+Go to the top right corner on your Firefox browser and look for the Selenium IDE icon.
+
+IDE-Installation
+Click on that icon to launch Selenium IDE.
+
+IDE-Installation
+Next TopicSeleniumIDE-Features

@@ -1,0 +1,24 @@
+Selenium IDE- Locating Strategies
+For most of the Selenium commands, we need a target location which uniquely defines the web element in the context of a web application.
+
+A target consists of a locating strategy and has a format like:
+
+LocatorType = LocatorStrategy  
+In Selenium IDE, a target works on six modes of specifying location of a particular web element which are:
+
+
+Locating by Identifier
+Locating by ID Element
+Locating by Name
+Locating by XPath
+Locating by CSS
+Locating by DOM
+
+Selenium IDE- Locating Strategies
+Before proceeding with each mode in detail, you should be well versed with HTML and CSS. You can also refer to our HTML and CSS tutorial provided under the links given below:
+
+Complete HTML tutorial: https://www.javatpoint.com/html-tutorial
+
+Complete CSS tutorial: https://www.javatpoint.com/css-tutorial
+
+Next TopicSelenium WebDriver

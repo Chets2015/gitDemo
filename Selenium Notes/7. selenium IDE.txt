@@ -1,0 +1,13 @@
+Selenium Integrated Development Environment (IDE)
+Selenium IDE (Integrated Development Environment) is an open source web automation testing tool under the Selenium Suite. Unlike Selenium WebDriver and RC, it does not require any programming logic to write its test scripts rather you can simply record your interactions with the browser to create test cases. Subsequently, you can use the playback option to re-run the test cases.
+
+Perhaps, creating test cases on Selenium IDE does not require any programming language but when you get to use selenese commands like runScript, a little knowledge prior to JavaScript would prove beneficial for you to understand the concepts more clearly. You can also refer our JavaScript tutorial provided under the URL:
+
+https://www.javatpoint.com/javascript-tutorial
+
+
+Note: Selenium IDE is available only as Mozilla Firefox and Chrome plug-in, which means you can't record your test cases on browsers other than Firefox and Chrome. The recorded test scripts can also be exported to programming languages like C#, Java, Ruby or Python.
+The following image shows the default interface of Selenium IDE:
+
+Selenium IDE
+Next TopicIDE-Installatio

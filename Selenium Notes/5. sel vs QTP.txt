@@ -1,0 +1,16 @@
+Selenium vs QTP
+Selenium and QTP are the most frequent used automation test tools in the market. Hence, we have compared some of the features of Selenium over QTP.
+
+Features	Selenium	HP QTP
+License	Open source tool	Required
+Customer support	Dedicated HP support	Selenium community forums
+Test Support	Supportsautomation only for web-based applications.	Support tests on both web and desktop based applications.
+Resource consumption during test scripts execution	Low resource consumption	High resource consumption
+Supported programming languages	Java, C#, Ruby, Python, Perl, PHP and JavaScript	VB Script.
+Supported Environments	Android, iOS, Windows, Linux, Mac, Solaris.	Only for Windows
+Supported Browsers	Google Chrome, Mozilla Firefox, Internet Explorer, Edge, Opera, Safari, etc.	Specific versions of Google Chrome, Mozilla Firefox and Internet Explorer.
+Object Repository/Recovery Scenario	Absent	Built-in object repository and recovery scenario.
+Browser Controls	None	Controls like favourites bar, backward and forward buttons can be accessed within the browser.
+Test Report Generation	It relies on external tool for generating test reports.	Built-in test report generation within the tool.
+Parameterization	You have to rely on any one of the supported programming language for parameterization.	Built-in tools are available for parameterization.
+Next TopicSelenium Tool Suite

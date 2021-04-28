@@ -1,0 +1,67 @@
+Selenium IDE- Commands (Selenese)
+Selenium commands, also known as "Selenese" are the set of commands used in Selenium IDE that run your tests. Using selenese, one can perform activities like:
+
+Testing the existence of UI elements based on their HTML tags.
+Test for specific content.
+Test for broken links.
+Testing input fields, selection list options, submitting forms and table data among other things.
+Testing of window size, mouse options, alerts, Ajax functionality, pop-up windows, event handling and many other web application features.
+A sequence of Selenium commands (Selenese) together is known as test script.
+
+Types of Selenium Commands
+Selenium commands are basically classified in three categories:
+
+
+Actions
+Accessors
+Assertions
+1. Actions
+Actions are the selenium commands that generally manipulate the state of the application. Execution of Actions generates events like click this link, select that option, type this box, etc. If an Action fails, or has a bug, the execution of current test is stopped.
+
+Some of the most commonly used Actions commands include:
+
+Command/Syntax	Description
+open (url)	It launches the desired URL in the specified browser and it accepts both relative and absolute URLs.
+type (locator,value)	It sets the value of an input field, similar to user typing action.
+typeKeys (locator,value)	This command simulates keystroke events on the specified element.
+click (locator)	This command enables clicks on a link, button, checkbox or radio button.
+clickAt (locator,coordString)	This command enables clicks on an element with the help of locator and co-ordinates
+doubleClick (locator)	This command enables double clicks on a webelement based on the specified element.
+focus (locator)	It moves the focus to the specified element
+highlight (locator)	It changes the background color of the specified element to yellow to highlight is useful for debugging purposes.
+close()	This command simulates the user clicking the "close" button in the title bar of a popup window or tab.
+store (expression,variableName)	This command specifies the name of a variable in which the result is to be stored and expression is the value to store
+waitForCondition (script,timeout)	This command executes the specified JavaScript snippet repeatedly until it evaluates to "true".
+2. Accessors
+Accessors are the selenium commands that examine the state of the application and store the results in variables. They are also used to automatically generate Assertions.
+
+Some of the most commonly used Accessors commands include:
+
+Command/Syntax	Description
+storeTitle (variableName)	This command gets the title of the current page.
+storeText (locator, variableName)	This command gets the text of an element..
+storeValue (locator,variableName)	This command gets the (whitespace-trimmed) value of an input field.
+storeTable (tableCellAddress, variableName)	This command gets the text from a cell of a table.
+storeLocation (variableName)	This command gets the absolute URL of the current page.
+storeElementIndex (locator, variableName)	This command gets the relative index of an element to its parent (starting from 0).
+storeBodyText (variableName)	This command gets the entire text of the page.
+storeAllButtons (variableName)	It returns the IDs of all buttons on the page.
+storeAllFields (variableName)	It returns the IDs of all input fields on the page.
+storeAllLinks (variableName)	It returns the IDs of all links on the page.
+2. Assertions
+
+Assertions are the commands that enable testers to verify the state of the application. Assertions are generally used in three modes assert, verify and waitfor.
+
+Some of the most commonly used Assertions commands are:
+
+Command/Syntax	Description
+verifySelected(selectLocator, optionLocator)	This command verifies that the selected option of a drop-down satisfies the optionSpecifier.
+verifyAlert (pattern)	This command verifies the alert text; used with accessorstoreAlert.
+verifyAllButtons (pattern)	This command verifies the button which is used withaccessorstoreAllButtons.
+verifyAllLinks (pattern)	This command verifies all links; used with the accessorstoreAllLinks.
+verifyBodyText(pattern)	This command verifies the body text; used with the accessorstoreBodyText.
+verifyAttribute(attributeLocator, pattern)	This command verifies an attribute of an element; used with the accessorstoreAttribute.
+waitForErrorOnNext (message)	This command enables Waits for error; used with the accessorassertErrorOnNext.
+waitForAlert (pattern)	This command enables waits for the alert; used with the accessorstoreAlert.
+verifyAllWindowIds (pattern)	This command verifies the window id; used with the accessorstoreAllWindowIds.
+Next TopicIDE-Creating Test Cases Manually
